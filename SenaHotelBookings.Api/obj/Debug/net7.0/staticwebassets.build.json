@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "er4SQUQ5OQMkbCOY0WL9Bocg/mJiD3VXpgw++50Fer0=",
+  "Source": "SenaHotelBookings.Api",
+  "BasePath": "_content/SenaHotelBookings.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

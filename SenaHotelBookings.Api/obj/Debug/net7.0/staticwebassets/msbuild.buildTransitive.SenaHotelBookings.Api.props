@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SenaHotelBookings.Api.props" />
+</Project>
