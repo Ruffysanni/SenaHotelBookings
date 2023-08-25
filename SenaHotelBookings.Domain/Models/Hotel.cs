@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace SenaHotelBookings.Domain.Models
 {
-    internal class Hotel
+    public class Hotel
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Stars { get; set; }
+        public string City { get; set; }
+        public string Country { get; set; }
+        public List<Room> Rooms { get; set; }
+        public string HotelDescription { get; set; }
     }
 }
