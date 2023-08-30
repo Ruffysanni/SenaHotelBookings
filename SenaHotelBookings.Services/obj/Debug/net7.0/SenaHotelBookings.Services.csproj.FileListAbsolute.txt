@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\bin\Debug\net7.0\SenaHotelBookings.Services.deps.json
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\bin\Debug\net7.0\SenaHotelBookings.Services.dll
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\bin\Debug\net7.0\SenaHotelBookings.Services.pdb
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\SenaHotelBookings.Services.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\SenaHotelBookings.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\SenaHotelBookings.Services.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\SenaHotelBookings.Services.AssemblyInfo.cs
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\SenaHotelBookings.Services.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\SenaHotelBookings.Services.dll
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\refint\SenaHotelBookings.Services.dll
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\SenaHotelBookings.Services.pdb
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\ref\SenaHotelBookings.Services.dll

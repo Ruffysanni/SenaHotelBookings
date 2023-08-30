@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\bin\Debug\net7.0\SenaHotelBookings.Dal.deps.json
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\bin\Debug\net7.0\SenaHotelBookings.Dal.runtimeconfig.json
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\bin\Debug\net7.0\SenaHotelBookings.Dal.dll
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\bin\Debug\net7.0\SenaHotelBookings.Dal.pdb
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\bin\Debug\net7.0\SenaHotelBookings.Domain.dll
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\bin\Debug\net7.0\SenaHotelBookings.Domain.pdb
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\obj\Debug\net7.0\SenaHotelBookings.Dal.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\obj\Debug\net7.0\SenaHotelBookings.Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\obj\Debug\net7.0\SenaHotelBookings.Dal.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\obj\Debug\net7.0\SenaHotelBookings.Dal.AssemblyInfo.cs
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\obj\Debug\net7.0\SenaHotelBookings.Dal.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\obj\Debug\net7.0\SenaHotelBookings.Dal.csproj.CopyComplete
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\obj\Debug\net7.0\SenaHotelBookings.Dal.dll
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\obj\Debug\net7.0\refint\SenaHotelBookings.Dal.dll
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\obj\Debug\net7.0\SenaHotelBookings.Dal.pdb
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\obj\Debug\net7.0\SenaHotelBookings.Dal.genruntimeconfig.cache
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Dal\obj\Debug\net7.0\ref\SenaHotelBookings.Dal.dll

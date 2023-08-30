@@ -7,5 +7,15 @@ namespace SenaHotelBookings.Api.Controllers
     [ApiController]
     public class RoomsController : ControllerBase
     {
+        public RoomsController()
+        {
+            
+        }
+
+        [HttpGet]
+        public IActionResult GetResult()
+        {
+            return Ok("Welcome...");
+        }
     }
 }
