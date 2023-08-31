@@ -14,6 +14,8 @@ builder.Services.AddDbContext<AppDataContext>(options =>
 {
     options.UseSqlServer(configuration.GetConnectionString("DefaultCon"));
 });
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+//builder.Services.AddAutoMapper(typeof(Startup));
 
 var app = builder.Build();
 

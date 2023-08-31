@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using SenaHotelBookings.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -15,5 +16,14 @@ namespace SenaHotelBookings.Dal
         public DbSet<Hotel> Hotels { get; set; }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Reservation> Reservations { get; set; }
+
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<Hotel>()
+        //        .HasMany(hotel => hotel.Rooms)
+        //        .WithOne(room => room.Hotel)
+        //        .HasForeignKey(room => room.HotelId)
+        //        .OnDelete(DeleteBehavior.Cascade);
+        //}
     }
 }
