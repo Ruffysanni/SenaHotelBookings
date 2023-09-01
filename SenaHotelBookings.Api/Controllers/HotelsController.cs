@@ -28,7 +28,8 @@ namespace SenaHotelBookings.Api.Controllers
         public async Task<IActionResult> GetAllHotels()
         {
             var hotels = await _context.Hotels.ToListAsync();
-            return Ok(hotels);
+            var hotelsGet = _mapper.Map<List<HotelGetDto>>(hotels);
+            return Ok(hotelsGet);
         }
 
         [HttpGet]
@@ -36,35 +37,36 @@ namespace SenaHotelBookings.Api.Controllers
         public async Task<IActionResult> GetHotelById(int id)
         {
             var hotelById = await _context.Hotels.FirstOrDefaultAsync(x => x.HotelId == id);
+            if(hotelById == null)
+            {
+                return NotFound();
+            }
+            var hotelGetById = _mapper.Map<HotelGetDto>(hotelById);
             return Ok(hotelById);
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateHotel([FromBody] HotelCreateDto hotel)
         {
-            Hotel domainHotel = new Hotel();
-            domainHotel.Name = hotel.Name;
-            domainHotel.Address = hotel.Address;
-            domainHotel.HotelDescription = hotel.HotelDescription;
-            domainHotel.City = hotel.City;
-            domainHotel.Country = hotel.Country;
-            domainHotel.Stars = hotel.Stars;
+            var domainHotel = _mapper.Map<Hotel>(hotel);
 
             _context.Hotels.Add(domainHotel);
+
+            var hotelGet = _mapper.Map<HotelGetDto>(domainHotel);
             await _context.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetHotelById), new { id = domainHotel.HotelId }, hotel);
         }
 
         [HttpPut]
         [Route("{id}")]
-        public async Task<IActionResult> UpdateHotel([FromBody]Hotel update, int id)
+        public async Task<IActionResult> UpdateHotel([FromBody]HotelCreateDto update, int id)
         {
-            var hotel = _context.Hotels.FirstOrDefault(x => x.HotelId == id);
-            hotel.Name = update.Name;
-            hotel.Address = update.Address;
-            hotel.HotelDescription = update.HotelDescription;
-
-            _context.Hotels.Update(hotel);
+            //var hotel = _context.Hotels.FirstOrDefault(x => x.HotelId == id);
+            var hotelUpdate = _mapper.Map<Hotel>(update);
+            hotelUpdate.HotelId = id;
+            
+            _context.Hotels.Update(hotelUpdate);
             await _context.SaveChangesAsync(true);
             return NoContent();
         }
@@ -74,6 +76,10 @@ namespace SenaHotelBookings.Api.Controllers
         public async Task<IActionResult> DeleteHote(int id)
         {
             var hotelToremove = await _context.Hotels.FirstOrDefaultAsync(x => x.HotelId == id);
+            if (hotelToremove == null)
+            {
+                return NotFound();
+            }
             _context.Hotels.Remove(hotelToremove);
             await _context.SaveChangesAsync();
             return NoContent();
