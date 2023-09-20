@@ -78,3 +78,5 @@ C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Api\bin\
 C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Api\bin\Debug\net7.0\SenaHotelBookings.Dal.dll
 C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Api\bin\Debug\net7.0\SenaHotelBookings.Dal.pdb
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Api\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
