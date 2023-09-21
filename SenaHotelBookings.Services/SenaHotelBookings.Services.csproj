@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SenaHotelBookings.Dal\SenaHotelBookings.Dal.csproj" />
+    <ProjectReference Include="..\SenaHotelBookings.Domain\SenaHotelBookings.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

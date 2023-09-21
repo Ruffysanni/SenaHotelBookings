@@ -40,7 +40,12 @@ namespace SenaHotelBookings.Api.Controllers
         public async Task<IActionResult> GetHotelById(int id)
         {
             var hotelById = await _hotelRepositories.GetHotelByIdAsync(id);
-            return Ok(hotelById);
+            if(hotelById == null)
+            {
+                return NotFound();
+            }
+            var hotelGet = _mapper.Map<HotelGetDto>(hotelById);
+            return Ok(hotelGet);
         }
 
         [HttpPost]

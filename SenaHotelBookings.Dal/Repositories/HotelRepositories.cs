@@ -67,7 +67,9 @@ namespace SenaHotelBookings.Dal.Repositories
 
         public async Task<Hotel> GetHotelByIdAsync(int id)
         {
-            var hotelById = await _dataContext.Hotels.FirstOrDefaultAsync(x => x.HotelId == id);
+            var hotelById = await _dataContext.Hotels
+                .Include(h => h.Rooms)
+                .FirstOrDefaultAsync(x => x.HotelId == id);
             if (hotelById == null)
             {
                 return null;

@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using SenaHotelBookings.Dal;
 using SenaHotelBookings.Dal.Repositories;
 using SenaHotelBookings.Domain.Contracts.Repositories;
+using SenaHotelBookings.Domain.Contracts.Services;
+using SenaHotelBookings.Services.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +20,7 @@ builder.Services.AddDbContext<AppDataContext>(options =>
 });
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<IHotelRepositories, HotelRepositories>();
+builder.Services.AddScoped<IReservationService, ReservationService>();
 //builder.Services.AddAutoMapper(typeof(Startup));
 
 var app = builder.Build();

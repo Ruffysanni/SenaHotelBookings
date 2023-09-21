@@ -10,3 +10,8 @@ C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services
 C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\refint\SenaHotelBookings.Services.dll
 C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\SenaHotelBookings.Services.pdb
 C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\ref\SenaHotelBookings.Services.dll
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\bin\Debug\net7.0\SenaHotelBookings.Dal.dll
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\bin\Debug\net7.0\SenaHotelBookings.Domain.dll
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\bin\Debug\net7.0\SenaHotelBookings.Dal.pdb
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\bin\Debug\net7.0\SenaHotelBookings.Domain.pdb
+C:\Users\user\Desktop\Side-Projects\SenaHotelBookings\SenaHotelBookings.Services\obj\Debug\net7.0\SenaHotelBookings.Services.csproj.CopyComplete
