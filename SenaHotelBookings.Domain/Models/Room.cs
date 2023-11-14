@@ -15,6 +15,6 @@ namespace SenaHotelBookings.Domain.Models
         public DateTime? BusyFrom { get; set; }
         public DateTime? BusyTo { get; set; }
         public int HotelId { get; set; }
-        public Hotel Hotel { get; set; }
+        public Hotel? Hotel { get; set; }
     }
 }

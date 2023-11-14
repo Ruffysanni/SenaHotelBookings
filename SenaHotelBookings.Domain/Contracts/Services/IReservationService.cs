@@ -10,6 +10,9 @@ namespace SenaHotelBookings.Domain.Contracts.Services
     public interface IReservationService
     {
         //Task<Reservation> MakeReservation(int hotelId, int roomId, DateTime checkIn, DateTime checkout, string customer);
-        Task<Reservation> MakeReservation(Reservation reservation);
+        Task<Reservation> MakeReservationAsync(Reservation reservation);
+        Task<List<Reservation>> GetAllReservationsAsync();
+        Task<Reservation> GetReservationByIdAsync(int id);
+        Task<Reservation> CancelReservationAsync(int id);
     }
 }
